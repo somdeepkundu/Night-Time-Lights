@@ -7,6 +7,8 @@ Colour is indeed a captivating aspect of our perception, allowing us to interpre
 
 To begin with, the code loads three distinct nighttime image datasets from different years: 2014-15, 2017-18, and 2021-22. These images correspond to different time periods and will be used to visualize the changes in light over the years. The VIIRS sensor captures the average radiance of lights during these specific time frames.
 
+![image](https://github.com/zomm0095/Night-Time-Lights/assets/62704009/1b99351e-47e6-4856-863d-624229eb750c)
+
 
 To create a visually informative representation of the data, a unique color scheme is employed. Specifically, a color progression is defined from red to blue. In this progression, red signifies older developments, while blue denotes newer ones. By using this color spectrum, the visualization aims to highlight temporal trends in urbanization and infrastructural changes.
 
