@@ -9,17 +9,21 @@ To begin with, the code loads three distinct nighttime image datasets from diffe
 
 ![image](https://github.com/zomm0095/Night-Time-Lights/assets/62704009/1b99351e-47e6-4856-863d-624229eb750c)
 
-
 To create a visually informative representation of the data, a unique color scheme is employed. Specifically, a color progression is defined from red to blue. In this progression, red signifies older developments, while blue denotes newer ones. By using this color spectrum, the visualization aims to highlight temporal trends in urbanization and infrastructural changes.
 
-The code then proceeds to select and process the nighttime images for each year, computing the median radiance for each period. This step is crucial to reduce any potential noise or outliers in the data, ensuring a clearer representation of urban areas' light intensity.
+The code then proceeds to select and process the nighttime images for each year, computing the median radiance for each period. This step is crucial to reduce any potential noise or outliers in the data, ensuring a clearer representation of urban areas' light intensity. With the median radiance values obtained for the years 2014-15, 2017-18, and 2021-22, the code generates an RGB composite image. The RGB composite combines the three images into a single representation by assigning each image to a specific color band: red for 2014-15, green for 2017-18, and blue for 2021-22. This composition effectively presents the developmental changes over time in a visually intuitive manner.
 
-With the median radiance values obtained for the years 2014-15, 2017-18, and 2021-22, the code generates an RGB composite image. The RGB composite combines the three images into a single representation by assigning each image to a specific color band: red for 2014-15, green for 2017-18, and blue for 2021-22. This composition effectively presents the developmental changes over time in a visually intuitive manner.
+![image](https://github.com/zomm0095/Night-Time-Lights/assets/62704009/c538b7ea-1f2e-48dc-adaf-310b31309fbc)
 
 The final visualization, known as the RGB composite image, is then added to the map display. The image showcases the areas illuminated in different colors, with red representing places that were brightly lit during 2014-15, green representing those during 2017-18, and blue representing those during 2021-22.
 
 However, some areas may appear white in the RGB composite. These regions are of particular interest as they exhibit consistent and continuous illumination throughout the entire temporal dataset. In other words, these areas have remained lit up over all three years, indicating stable development or ongoing activities.
 
+![image](https://github.com/zomm0095/Night-Time-Lights/assets/62704009/a2f7fad5-40d6-4990-b686-c4594aa8f56f)
+
 On the other hand, the presence of blue lights in the composite image signifies new developments. These are areas that experienced increased illumination between 2017-18 and 2021-22, highlighting rapid urban expansion and infrastructural growth in those regions.
 
 In conclusion, the VIIRS Night Time Light data and the RGB composite visualization provide a powerful tool to monitor and analyze developmental changes over time. The code developed by Somdeep Kundu offers an insightful and visually compelling perspective on the evolution of urban landscapes, demonstrating how the mixture of colors can indeed grant us a unique perception of beauty, joy, and valuable information embedded in the changing urban fabric.
+
+![image](https://github.com/zomm0095/Night-Time-Lights/assets/62704009/91fa52a5-ced1-44fc-b9b2-436bc2f3ed9d)
+
