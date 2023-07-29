@@ -1,10 +1,23 @@
 # Night-Time-Lights
-This repository contains code developed by Somdeep Kundu, PGD NHDRM 2022-23, Indian Institute of Remote Sensing, Dehradun, to visualize developmental changes using Night Time Light (NTL) data. The code is written in Google Earth Engine, and uses monthly average radiance composite images obtained from the Visible Infrared Imaging Radiometer Suite (VIIRS) Day/Night Band (DNB) to visualize changes over time. The visual parameter used in this repository is from red to blue, where red indicates older developments, and blue indicates newer ones.
+This repository contains code developed by Somdeep Kundu, PGD NHDRM 2022-23, Indian Institute of Remote Sensing, Dehradun, to visualize developmental changes using Night Time Light (NTL) data.
 
-The NTL data used in this repository is VIIRS Stray Light Corrected Nighttime Day/Night Band Composites Version 1. Due to the nature of monthly composites, it is not always possible to obtain good quality data coverage for a given month, especially due to cloud cover and solar illumination. Therefore, it is recommended that users of these data utilize the 'cf_cvg' band to determine cloud cover, and not assume a value of zero in the average radiance image means that no lights were observed.
 
-It should be noted that the Version 1 of the NTL data used in this repository has NOT been filtered to screen out lights from aurora, fires, boats, and other temporal lights. This separation is under development and will be included in a later version of this time series. In addition, there are artifacts introduced due to the correction procedure used in twilight regions. These are discussed in detail in the reference paper, which can be accessed through the link provided.
 
-This repository contains code to generate a visualization of the NTL data, and also includes a classification legend using ui.Panel. The repository can be useful for researchers and analysts working on developmental changes, and for policymakers who need to monitor urbanization and associated environmental impacts.
+Colour is indeed a captivating aspect of our perception, allowing us to interpret the world around us and find beauty, joy, and valuable information. When it comes to nighttime imagery, the VIIRS sensor stands out from most other optical satellites, capturing the radiance of lights during the dark hours. In this context, I would like to introduce a fascinating project that utilizes Night Time Light (NTL) data from VIIRS to visualize developmental changes over time. This dataset allows for a comprehensive assessment of changes in light intensity over time, offering valuable insights into developmental trends and urban growth.
 
-For more information about the NTL data, and the code in this repository, please refer to the code documentation and comments.
+To begin with, the code loads three distinct nighttime image datasets from different years: 2014-15, 2017-18, and 2021-22. These images correspond to different time periods and will be used to visualize the changes in light over the years. The VIIRS sensor captures the average radiance of lights during these specific time frames.
+
+
+To create a visually informative representation of the data, a unique color scheme is employed. Specifically, a color progression is defined from red to blue. In this progression, red signifies older developments, while blue denotes newer ones. By using this color spectrum, the visualization aims to highlight temporal trends in urbanization and infrastructural changes.
+
+The code then proceeds to select and process the nighttime images for each year, computing the median radiance for each period. This step is crucial to reduce any potential noise or outliers in the data, ensuring a clearer representation of urban areas' light intensity.
+
+With the median radiance values obtained for the years 2014-15, 2017-18, and 2021-22, the code generates an RGB composite image. The RGB composite combines the three images into a single representation by assigning each image to a specific color band: red for 2014-15, green for 2017-18, and blue for 2021-22. This composition effectively presents the developmental changes over time in a visually intuitive manner.
+
+The final visualization, known as the RGB composite image, is then added to the map display. The image showcases the areas illuminated in different colors, with red representing places that were brightly lit during 2014-15, green representing those during 2017-18, and blue representing those during 2021-22.
+
+However, some areas may appear white in the RGB composite. These regions are of particular interest as they exhibit consistent and continuous illumination throughout the entire temporal dataset. In other words, these areas have remained lit up over all three years, indicating stable development or ongoing activities.
+
+On the other hand, the presence of blue lights in the composite image signifies new developments. These are areas that experienced increased illumination between 2017-18 and 2021-22, highlighting rapid urban expansion and infrastructural growth in those regions.
+
+In conclusion, the VIIRS Night Time Light data and the RGB composite visualization provide a powerful tool to monitor and analyze developmental changes over time. The code developed by Somdeep Kundu offers an insightful and visually compelling perspective on the evolution of urban landscapes, demonstrating how the mixture of colors can indeed grant us a unique perception of beauty, joy, and valuable information embedded in the changing urban fabric.
