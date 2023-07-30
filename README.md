@@ -15,15 +15,20 @@ The code then proceeds to select and process the nighttime images for each year,
 
 ![image](https://github.com/zomm0095/Night-Time-Lights/assets/62704009/c538b7ea-1f2e-48dc-adaf-310b31309fbc)
 
-The final visualization, known as the RGB composite image, is then added to the map display. The image showcases the areas illuminated in different colors, with red representing places that were brightly lit during 2014-15, green representing those during 2017-18, and blue representing those during 2021-22.
+The final visualization, known as the 'RGB composite image', is then added to the map display. The image showcases the areas illuminated in different colors, with red representing places that were brightly lit during 2014-15, green representing those during 2017-18, and blue representing those during 2021-22.
 
 However, some areas may appear white in the RGB composite. These regions are of particular interest as they exhibit consistent and continuous illumination throughout the entire temporal dataset. In other words, these areas have remained lit up over all three years, indicating stable development or ongoing activities.
 
 ![image](https://github.com/zomm0095/Night-Time-Lights/assets/62704009/a2f7fad5-40d6-4990-b686-c4594aa8f56f)
 
-On the other hand, the presence of blue lights in the composite image signifies new developments. These are areas that experienced increased illumination between 2017-18 and 2021-22, highlighting rapid urban expansion and infrastructural growth in those regions.
+On the other hand, the presence of blue lights in the composite image signifies new developments. These are areas that experienced increased illumination between April 2021 to April 2022, highlighting rapid urban expansion and infrastructural growth in those regions.
 
-In conclusion, the VIIRS Night Time Light data and the RGB composite visualization provide a powerful tool to monitor and analyze developmental changes over time. The code developed by Somdeep Kundu offers an insightful and visually compelling perspective on the evolution of urban landscapes, demonstrating how the mixture of colors can indeed grant us a unique perception of beauty, joy, and valuable information embedded in the changing urban fabric.
+in the end, the VIIRS Night Time Light data and the RGB composite visualization provide a powerful tool to monitor and analyze developmental changes over time. The code developed by me, Somdeep Kundu offers an insightful and visually compelling perspective on the evolution of urban landscapes, demonstrating how the mixture of colors can indeed grant us a unique perception of beauty, joy, and valuable information embedded in the changing urban fabric.
+
+This code is free to use change and reporoduce.. if you like it please star it, and fell free to ask me any questions.. My mail id somdeepkundu@gmail.com
+happy learning.. 🌍🛰️❤️
+
+
 
 ![image](https://github.com/zomm0095/Night-Time-Lights/assets/62704009/91fa52a5-ced1-44fc-b9b2-436bc2f3ed9d)
 
