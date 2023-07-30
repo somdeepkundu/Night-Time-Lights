@@ -21,11 +21,13 @@ However, some areas may appear white in the RGB composite. These regions are of 
 
 ![image](https://github.com/zomm0095/Night-Time-Lights/assets/62704009/a2f7fad5-40d6-4990-b686-c4594aa8f56f)
 
-On the other hand, the presence of blue lights in the composite image signifies new developments. These are areas that experienced increased illumination between April 2021 to April 2022, highlighting rapid urban expansion and infrastructural growth in those regions. Anomali of random occasions of red, gree colour leads to irradic behaviour of human society, market or economy. They need to be investigated. Here we are dealing with spacitotempral behaviour of our societ at planetary scale. 
+On the other hand, the presence of blue lights in the composite image signifies new developments. These are areas that experienced increased illumination between April 2021 to April 2022, highlighting rapid urban expansion and infrastructural growth in those regions. Anomali of random occasions of red, gree colour leads to irradic behaviour of human society, market or economy or may be some kind of disaster happened in that place. They all are need to be investigated. Here we are dealing with spacitotempral behaviour of our societ by the lights they shine at planetary scale. 
 
 in the end, the VIIRS Night Time Light data along with smart use of RGB composite for visualization provide a powerful tool to monitor and analyze developmental changes over time. Here colour = information. The code developed by me, Somdeep Kundu offers an insightful and visually compelling perspective on the evolution of urban landscapes, demonstrating how the mixture of colors can indeed grant us a unique perception of beauty, joy, and valuable information embedded in the changing urban fabric. 
 
-This code is free to use, change and reporoduce.. if you like it please star it, ot will act like encouragement, and fell free to ask me any questions.. My mail id somdeepkundu@gmail.com
+
+
+This code is free to use, change and reporoduce.. if you like it please star it, it will act like encouragement, and fill free to ask me any questions.. My mail id somdeepkundu@gmail.com
 happy learning.. 🌍🛰️❤️
 
 
