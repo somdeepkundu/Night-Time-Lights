@@ -11,7 +11,7 @@ To begin with, the code loads three distinct nighttime image datasets from diffe
 
 To create a visually informative representation of the data, a unique color scheme is employed. Specifically, a color progression is defined from red to blue. In this progression, red signifies older developments, while blue denotes newer ones. By using this color spectrum, the visualization aims to highlight temporal trends in urbanization and infrastructural changes.
 
-The code then proceeds to select and process the nighttime images for each year, computing the median radiance for each period. This step is crucial to reduce any potential noise or outliers in the data, ensuring a clearer representation of urban areas' light intensity. With the median radiance values obtained for the years 2014-15, 2017-18, and 2021-22, the code generates an RGB composite image. The RGB composite combines the three images into a single representation by assigning each image to a specific color band: red for 2014-15, green for 2017-18, and blue for 2021-22. This composition effectively presents the developmental changes over time in a visually intuitive manner.
+The code then proceeds to select and process the nighttime images for each year, computing the median radiance for each period. This step is crucial to reduce any potential noise or outliers in the data, ensuring a clearer representation of urban areas' light intensity. With the median radiance values obtained for the years 2014-15, 2017-18, and 2021-22, the code generates an RGB composite image, that create a perception of abstraction of reality. The RGB composite combines the three images into a single representation by assigning each image to a specific color band: red for 2014-15, green for 2017-18, and blue for 2021-22. This composition effectively presents the developmental changes over time in a visually intuitive manner.
 
 ![image](https://github.com/zomm0095/Night-Time-Lights/assets/62704009/c538b7ea-1f2e-48dc-adaf-310b31309fbc)
 
@@ -21,9 +21,9 @@ However, some areas may appear white in the RGB composite. These regions are of 
 
 ![image](https://github.com/zomm0095/Night-Time-Lights/assets/62704009/a2f7fad5-40d6-4990-b686-c4594aa8f56f)
 
-On the other hand, the presence of blue lights in the composite image signifies new developments. These are areas that experienced increased illumination between April 2021 to April 2022, highlighting rapid urban expansion and infrastructural growth in those regions.
+On the other hand, the presence of blue lights in the composite image signifies new developments. These are areas that experienced increased illumination between April 2021 to April 2022, highlighting rapid urban expansion and infrastructural growth in those regions. Anomali of random occasions of red, gree colour leads to irradic behaviour of human society, market or economy. They need to be investigated. Here we are dealing with spacitotempral behaviour of our societ at planetary scale. 
 
-in the end, the VIIRS Night Time Light data and the RGB composite visualization provide a powerful tool to monitor and analyze developmental changes over time. The code developed by me, Somdeep Kundu offers an insightful and visually compelling perspective on the evolution of urban landscapes, demonstrating how the mixture of colors can indeed grant us a unique perception of beauty, joy, and valuable information embedded in the changing urban fabric.
+in the end, the VIIRS Night Time Light data along with smart use of RGB composite for visualization provide a powerful tool to monitor and analyze developmental changes over time. Here colour = information. The code developed by me, Somdeep Kundu offers an insightful and visually compelling perspective on the evolution of urban landscapes, demonstrating how the mixture of colors can indeed grant us a unique perception of beauty, joy, and valuable information embedded in the changing urban fabric. 
 
 This code is free to use, change and reporoduce.. if you like it please star it, ot will act like encouragement, and fell free to ask me any questions.. My mail id somdeepkundu@gmail.com
 happy learning.. 🌍🛰️❤️
