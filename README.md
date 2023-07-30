@@ -25,7 +25,8 @@ On the other hand, the presence of sole blue pixels in the composite image signi
 
 In the end, i like to encourage you all to look into this matter, a lot of possibilities are there, specially using government datas(or claims) and encorporating matchine learning-AI into this philosophical approach of amalgamation of Earth Observation & Economics. The VIIRS Night Time Light data along with smart use of RGB composite for visualization provide us a powerful tool to use to monitor and analyze developmental changes over time. We have to remember a besic thing for data science of Remote Sensing as philosophy, here
 > colour = information.
-This code developed by me, Somdeep Kundu, i hope, offers an insightful and visually compelling perspective on the evolution of urban landscapes, demonstrating how the mixture of colors can indeed grant us a unique perception of beauty, joy, and valuable information embedded in the changing urban fabric. 
+
+This code developed by me, Somdeep Kundu, hope, offers an insightful and visually compelling perspective on the evolution of urban landscapes, demonstrating how the mixture of colors can indeed grant us a unique perception of beauty, joy, and valuable information embedded in the changing urban fabric.
 
 
 
