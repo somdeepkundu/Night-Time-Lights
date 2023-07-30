@@ -25,7 +25,7 @@ On the other hand, the presence of blue lights in the composite image signifies 
 
 in the end, the VIIRS Night Time Light data and the RGB composite visualization provide a powerful tool to monitor and analyze developmental changes over time. The code developed by me, Somdeep Kundu offers an insightful and visually compelling perspective on the evolution of urban landscapes, demonstrating how the mixture of colors can indeed grant us a unique perception of beauty, joy, and valuable information embedded in the changing urban fabric.
 
-This code is free to use change and reporoduce.. if you like it please star it, and fell free to ask me any questions.. My mail id somdeepkundu@gmail.com
+This code is free to use, change and reporoduce.. if you like it please star it, ot will act like encouragement, and fell free to ask me any questions.. My mail id somdeepkundu@gmail.com
 happy learning.. 🌍🛰️❤️
 
 
