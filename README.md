@@ -38,3 +38,8 @@ happy learning.. 🌍🛰️❤️
 
 ![image](https://github.com/zomm0095/Night-Time-Lights/assets/62704009/91fa52a5-ced1-44fc-b9b2-436bc2f3ed9d)
 
+
+
+
+special thanks to professor Jeff Howwath from whom i learnt this
+https://jeffhowarth.github.io/eeprimer/glossary/nighttime-light-patterns/
