@@ -10,4 +10,4 @@ Map.setOptions("Hybrid");
 var tempVisParam = {min:0,max:3,gamma:1};
 Map.addLayer(temporalComposite, tempVisParam,
                 'Nighttime temporalComposite', true);
-Map.setCenter(77.69, 25.2, 5)                
+Map.setCenter(78, 22, 4)                
