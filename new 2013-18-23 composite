@@ -7,4 +7,7 @@ var nitLight2023 = dataset.filter(ee.Filter.date('2023', '2024')).select(['avg_r
 var temporalComposite = nitLight2013.addBands(nitLight2018).addBands(nitLight2023).aside(print,'Composite');
 // ADD LAYER
 Map.setOptions("Hybrid");
-Map.addLayer(temporalComposite, {}, 'Nighttime temporalComposite');
+var tempVisParam = {min:0,max:3,gamma:1};
+Map.addLayer(temporalComposite, tempVisParam,
+                'Nighttime temporalComposite', true);
+Map.setCenter(77.69, 25.2, 5)                
