@@ -1,0 +1,10 @@
+var dataset = ee.ImageCollection("NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG");
+// TEMPORAL FILTRING 
+var nitLight2013 = dataset.filter(ee.Filter.date('2013', '2014')).select(['avg_rad'], ["2013"]).median();
+var nitLight2018 = dataset.filter(ee.Filter.date('2018', '2019')).select(['avg_rad'], ["2018"]).median();
+var nitLight2023 = dataset.filter(ee.Filter.date('2023', '2024')).select(['avg_rad'], ["2023"]).median();
+// TEMPORAL COMPOSITE
+var temporalComposite = nitLight2013.addBands(nitLight2018).addBands(nitLight2023).aside(print,'Composite');
+// ADD LAYER
+Map.setOptions("Hybrid");
+Map.addLayer(temporalComposite, {}, 'Nighttime temporalComposite');
