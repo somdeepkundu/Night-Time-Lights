@@ -1,4 +1,4 @@
-# Night-Time-Lights
+# Night-Time-Lights 
 This repository contains code developed by Somdeep Kundu, PGD NHDRM 2022-23, **Indian Institute of Remote Sensing, Dehradun**, to visualize developmental changes using Night Time Light (NTL) data.
 
 
